@@ -31,3 +31,87 @@ ul#horizontal-list a:nth-last-child(1){
 }
 
 /* End of Nav Styles */
+
+
+
+/* Start of hero/header */
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+}
+/* end of header section */
+
+
+
+/* start of middle section */
+#middle-text{
+    text-align: center;
+    padding: 13vw;
+}
+
+#middle-text h2{
+    padding: 1.5vw;
+}
+/* end of middle section */
+
+
+
+/* Start of features section */
+#by-car-image,#fast-car-image,#electric-car-image{
+    margin-bottom: 10vh;
+}
+
+#features-section{
+    margin: 8vw;
+}
+/* End of features section */
+
+/* Community Section */
+#cool-sun-image{
+    width: 50%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+/* End of community section */
+
+
+/* footer section */
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100;
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
+
+/* profile section */
+.hero-section{
+    height: 95vw;
+    background-image: linear-gradient(to right bottom, rgba (30,115,172,0.7), rgba(142,57,153,0.6)),url(../images/thumb_22540_default_large.jpeg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
