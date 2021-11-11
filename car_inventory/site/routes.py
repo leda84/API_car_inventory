@@ -1,4 +1,6 @@
 from flask import Blueprint, render_template
+from flask_login.utils import login_required
+# render_template is a function that will show html
 
 """
     Note that in the code below,
@@ -17,5 +19,7 @@ def home():
     return render_template('index.html')
 
 @site.route('/profile')
+# decorator protects route
+@login_required
 def profile():
     return render_template('profile.html')
