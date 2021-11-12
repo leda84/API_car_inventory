@@ -32,7 +32,7 @@ def create_car(current_user_token):
     response = car_schema.dump(car)
     return jsonify(response)
 
-    # RETRIEVE ALL DRONES ENDPOINT
+    # RETRIEVE ALL Cars ENDPOINT
 @api.route('/cars', methods = ['GET'])
 @token_required
 def get_cars(current_user_token):
