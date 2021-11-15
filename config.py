@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Give access to the project in N=ANY os we find ourselves in
-# Allow outside files/folders to be added to the project
-# base directory
+# Allow outside files/folders to be added to the project base directory
 
 load_dotenv(os.path.join(basedir, '.env'))
 
